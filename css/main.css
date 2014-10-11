@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+body{
+	font-family: 'Lato','Helvetica Neue',  'Helvetica', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+header{
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: solid 5px #EA4A00;
+	color: #FFFFFF;
+}
+.container-fluid{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	background-image: url(../img/ricepaper_v3.png);
+	opacity: 0.9;
+}
+.location{
+	padding-left:2em;
+}
+
+.menu{
+	background-color: rgba(207,205,140,0.5);
+	margin: 0;
+
+}
+.col-md-6{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	margin-top: 1em;
+}
+
+nav li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 1em;
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+}
+
+nav a{
+	color: #55E;
+}
+
+nav a:hover, 
+nav a:focus {
+	color: #002;
+}
+.lead{
+	display: none;
+}
+
+section, footer{
+	padding: 1em;
+}
+
+@media(min-width:992px){
+	body{
+		background-image: url(../img/background.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		font-size: 18px;
+	}
+
+	.container-fluid{
+		margin-left: 30%;
+		margin-top: 20px;
+		margin-right:20px;
+		margin-bottom: 20px;
+	}
+
+	nav{
+		position: absolute;
+		top:10px;
+		right: 10px;
+	}
+
+	.lead{
+		display:inline; 
+	}
+}
+
+
+a, a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+a:hover{
+	color: #0000EE;
+}
+
+h1,h2,h3{
+	font-family: 'Raleway','Helvetica Neue','Helvetica', sans-serif;
+	font-weight: 300;
+}
+
+h1{
+	font-size:300%;
+	margin: 0;
+}
+h2,h3{
+	color: #505050;
+}
+
+h2{
+	font-size: 150%;
+	margin: 0;
+}
+
+h3{
+	font-size: 125%;
+}
+
+header p{
+	font-size: 120%;
+	color:#EEEEEE;
+	margin: 0;
+}
+
+dt{
+	font-weight: 400;
+	margin: 0;
+}
+
+dd{
+	margin-bottom: 1em;
+	margin-left: 1em;
+	font-size: 80%
+}
+div{
+	padding: 0;
+	margin: 0;
+}
+dd p.italic{
+	font-style: italic;
+	margin: 0;
+}
+
+footer{
+	text-align:right;
+	background-color: #FC892F;
+	border-top: solid 5px #EC791F;
+	font-size: 80%
+}
