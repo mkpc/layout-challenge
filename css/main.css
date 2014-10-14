@@ -50,15 +50,26 @@ nav ul{
 nav a{
 	color: #55E;
 }
+nav a:visited{
+	color:#55E;
+}
 
 nav a:hover, 
 nav a:focus {
-	color: #002;
+	color: #00E;
+	text-decoration: none;
 }
 .lead{
 	display: none;
 }
-
+a, a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+a:hover{
+	color: #0000EE;
+	text-decoration: none;
+}
 section, footer{
 	padding: 1em;
 }
@@ -91,13 +102,7 @@ section, footer{
 }
 
 
-a, a:visited {
-	text-decoration: none;
-	color: #0000AA;
-}
-a:hover{
-	color: #0000EE;
-}
+
 
 h1,h2,h3{
 	font-family: 'Raleway','Helvetica Neue','Helvetica', sans-serif;
